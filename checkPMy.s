@@ -4,7 +4,6 @@
 	.globl	GetInput
 	.type	GetInput, @function
 GetInput:
-	endbr64
 	push	rbp
 	mov	rbp, rsp
 	mov	r12d, 0
@@ -65,7 +64,6 @@ GetInput:
 	.globl	CheckPalindrome
 	.type	CheckPalindrome, @function
 CheckPalindrome:
-	endbr64
 	push	rbp
 	mov	rbp, rsp
 	mov	r15, rdi
@@ -112,7 +110,6 @@ CheckPalindrome:
 	.globl	main
 	.type	main, @function
 main:
-	endbr64
 	push	rbp
 	mov	rbp, rsp
 	sub	rsp, 32
